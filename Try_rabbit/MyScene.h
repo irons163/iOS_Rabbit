@@ -10,4 +10,7 @@
 
 @interface MyScene : SKScene
 
+@property (nonatomic) NSTimeInterval lastSpawnTimeInterval;
+@property (nonatomic) NSTimeInterval lastUpdateTimeInterval;
+
 @end
